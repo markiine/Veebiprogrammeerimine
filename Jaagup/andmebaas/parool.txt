@@ -1,0 +1,9 @@
+user: tunniplaan
+parool: E4J[p0[DTUEi(gXU
+
+
+
+$server = "localhost";
+$database = "tunniplaan";
+$user = "tunniplaan";
+$password = "E4J[p0[DTUEi(gXU";

@@ -1,0 +1,80 @@
+--== PHP ülesanded 0800 ==--
+Õpetaja Aare Klooster, aine PHP, kuupäev 11.10.2005
+
+* Abi saamiseks vaata http://ee.php.net või http://students.tmk.edu.ee/download/ebooks või tunni materjale http://students.tmk.edu.ee/php/materjal/
+* Vastused panna kodukataloogi \\angel\username\public_html\php\yl0801.php järgmine failinimega yl0802.php jne. 
+* Lisa failide esimeseks reaks oma nimi, rühm ja kuupäev.
+
+================================
+Ülesanne 0801
+
+On antud tekstistring $string = "Manivald;Jugapuu;37904235642;Tähe 7-44, Tapa, 13644;50534778;leiutaja ja looduseuurija";
+Leida PHP funktsioon mis tekstistringi ";" märkide kohalt "lõhki lööks" ja tekstilõigud massiivi.
+Kuvada massiivist välja eelnevalt tekstistringis leidunud eesnimi, perenimi, ik, aadress, tel ja amet.
+
+================================
+Ülesanne 0802
+
+Teha massiiv, kuhu sisestada 10 näitleja nime suvalises järjekorras. Teha väljakuvamiseks funktsioon, milles massiiv tsükliga välja kuvada. Leida vastav PHP funktsioon mis massiivi sordib, seda teha ja massiiv sama funktsiooniga välja kuvada.
+
+================================
+Ülesanne 0803
+
+Teha MySQL andmebaasi tabel nimega "kasutajanimi_isikud". Väljadeks id, eesnimi ja perenimi.
+Teha HTML vorm kuhu saab lisada eesnime ja perenime, mis peale sisestust andmebaasi tabelisse lisatakse.
+Näidata kasutajale antud andmebaasi tabeli sisu.
+
+================================
+Ülesanne 0804
+
+Genereerida juhuslikult 100 erinevat numbrit vahemikus 1-100. Soovitavalt need massiivi lisada ja edasi sellega töötada.
+Öelda kasutajale: 
+-Milline on väikseim number. 
+-Milline on suurim number.
+-Millist numbrit esines kõige sagedamini ja mitu korda. 
+-Millised esinenud arvudest jaguvad 10-ga. (kasuta moodulit)
+-Mitu paaritut ja mitu paaris arvu esines. 
+
+================================
+Ülesanne 0805
+
+Teha funktsioon, mille sisendiks on internetist leitud mitmelauseline (vähemalt 6) anekdoot. 
+Funktsioon tehku: 
+Esimene lause läbiva suurtähega. 
+Teine lause läbiva väiketähega.
+Teha kolmas lause nii, et iga sõna alguses oleks suurtäht, muidu aga väiketäht.
+Neljas lause "hammustada" 15 tähemärgi pikkuseks.
+Viies lause keerata teistpidi. Nt. "Elas metsas" -> "sastem sale".
+Kuuendas lauses keerata tagurpidi sõnade järjekord lauses. Nt. "Elas metsas" -> "metsas Elas".
+
+================================
+Ülesanne 0806
+
+Teha mäng. On 3 ust. Uste taga on juhuslikult auhinnad 0, 1000 ja 1 000 000 krooni. Mängija valib ühe ukse ja talle öeldakse tema võidusumma ning avatakse ka teised uksed. Saab alustada ka uut mängu.
+
+================================
+Ülesanne 0807
+
+Teha nn. detsembrikuu jõulukalender. Ekraanile genereerida tsükliga 31 nuppu. Igale nupule vajutades avaneb pilt ja nupp muutub passiivseks (disabled). Vajutused registreeriakas massiivis, mis omakorda sessiooni pannakse. Kasutaja peab saama kõik nupud järjest läbi vajutada ja kõiki pilte näha. Pildid ise internetist otsida http://images.google.com/images?q=xmas&hl=et. Käsitööd mitte teha, kõik peaks käima tsükli, massiivide ja sessioonidega. Pildid olgu normaalse suurusega st. mitte väga väikesed ega suured.
+
+================================
+Ülesanne 0809
+
+Ülesanne on "Vikerkaare tabelite" parooli häkkimise kohta. Tänapäeval krüptitakse paroolid hashiks nii, et keegi krüptitud paroolist algparooli teha ei oska. Tagurpidi hashist, algparooli sõna teha pole võimalik. Paroolikontroll töötab nii, et kasutaja parooli sisestusel sisestatud parool krüptitakse hasiks ja kontrollitakse juba olemasoleva hashiga vastavust. Niimoodi saadaksegi teada, kas tegu on õige parooliga. Iga kord kui sama parool krüptida tuleb sama hash. 
+
+Antud ülesandes kasutada MD5 krüpteerimise algoritmi. Alustuseks proovida PHP MD5 funktsiooniga krüpteerida sõna "rebane" ja vastuseks tuleb hash "7da7ff8712d9f98dd49c767689129d6d" siis täht "a" ja vastuseks tuleb "0cc175b9c0f1b6a831c399e269772661".
+
+Sisestada massiivi kogu inglise tähestiku väiketähtedest 1 tähelised sõnad (a-z), need krüptida ja lisada kõigile hash. Antud massiivi kutsutaksegi "vikerkaare tabeliks". Tabelis olevate hashide võrdlusel krüptitud parooliga saame parooli kätte. Antud juhul on meil lihtsuse mõttes ainult 1 tähelised sõnad, kuid tegelikult on nendes suurtes, kuni mitusada GB tabelitest, kuni 8 kohalised paroolid võimalik lahti häkkida sekunditega.
+
+Kasutaja saab sisestada lahtrisse hashi ja talle öeldakse hashide võrdlusel "Vikerkaare tabelist" parool, antud juhul hashi järgi täht.
+
+================================
+Ülesanne 0810
+
+Genereerida juhuslikult 100 erinevat numbrit vahemikus 100-200. Soovitavalt need massiivi lisada ja edasi sellega töötada.
+Öelda kasutajale: 
+-Kui mitmes arvus esines number "3" 
+-Mitu korda üldse kokku esines number "3". 
+-Milline on kõikide arvude keskmine.
+-Kas esines arv 166?
+-Võta massiivist üks juhuslik number ja väljastada see.

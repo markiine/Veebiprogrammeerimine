@@ -1,0 +1,47 @@
+--== PHP ülesanded 06 ==--
+Õpetaja Aare Klooster, aine PHP, kuupäev 03.2011
+
+Vastused pange TMK serveri kodukataloogi \\angel\username\public_html\php\ylesanded\yl0601.php järgmine failinimega yl0602.php jne. Ülesanded peavad olema näha siit http://students.tmk.edu.ee/php/projektid/projektide_kontroll.php Lisa koodi sisse kommentaariks failide esimele reaks oma nimi, rühm ja kuupäev.
+ 
+VORMID
+
+================================
+Ülesanne 0601
+
+Teha lihtne kalkulaator, mis teeks põhilisi arikmeetilisi tehteid.
+
+1. On 2 lahtrit kuhu saab sisestada arve
+2. Kasutaja valib kas soovib neid arve liita, lahutada, korrutada või jagada
+3. Vastavalt valikule näidatakse nt. 3 + 4 = 7
+4. Näidatakse tulemust
+
+
+================================
+Ülesanne 0602
+
+Teha arvu arvamise mäng.
+
+Sessioonid ja/või vormi peidetud väljad või URLi rea parameetrid.
+1. Arvuti mõtleb juhuslikult ühe arvu 1-1000 vahel. Nimetame seda "õigeks".
+2. Kasutaja saab lahtrisse sisestada arvu.
+3. Arvuti ütleb, et kas õige on sisestatust suurem või väiksem.
+4. Mäng kestab kuni kasutaja arvab õige ära.
+5. Arvuti annab õige ara arvamisest teada.
+6. Saab alustada uut mängu.
+
+
+================================
+Ülesanne 0603
+
+Sessioonid.
+Vajutad nupule "Alusta uut mängu" ja algab uus mäng.
+Arvuti mõtleb välja arvu vahemikus 1-10 "$rndval" ja paneb selle sessiooni $_SESSION['randval'].
+Kasutaja saab lahtrisse "user_input" sisestada arve.
+Kõik sisestatud arvud salvestatakse sessiooni massiivi näide: 
+$_SESSION['user_input'][] = $_POST['user_input'];
+Kasutajale väljastatakse kogu aeg sessiooni "user_input" sisu nt. print_r($_SESSION['user_input'])
+Kui kasutaja sisestab sama arvu mille arvuti välja mõtles kuvatakse ekraanile teade,
+et kasutaja sai pihta õigele arvule ja mitme korraga. 
+Sellega mäng lõppeb.
+Enam midagi sisestada ei saa. 
+Saab vaid vajutad nupule "Alusta uut mängu" ja algab uus mäng.

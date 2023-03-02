@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/Jaagup/harjutused/Chrism-html/admin.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Jaagup/harjutused/Chrism-html/kava.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Jaagup/harjutused/Chrism-html/registreerimine.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Jaagup/harjutused/Lennujaam/klientidearv&amp;reisijatearvusumma.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Jaagup/harjutused/Lennujaam/kulunudkestvusesisestus.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Jaagup/harjutused/Lennujaam/lendudelisamine.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Jaagup/harjutused/Lennujaam/lõpetatudlendudemääramine.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Jaagup/harjutused/Lennujaam/lõpetatudlennudkestvusega.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Jaagup/harjutused/Lennujaam/reisijatelisamine.php" dialect="GenericSQL" />
+  </component>
+</project>

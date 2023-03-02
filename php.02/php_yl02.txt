@@ -1,0 +1,51 @@
+--== PHP ?lesanded 02 ==--
+?petaja Aare Klooster, aine PHP, kuup?ev 09.2007
+
+Vastused pange TMK serveri kodukataloogi \\angel\username\public_html\php\ylesanded\yl0201.php j?rgmine failinimega yl0202.php jne. ?lesanded peavad olema n?ha siit http://students.tmk.edu.ee/php/projektid/projektide_kontroll.php Lisa koodi sisse kommentaariks failide esimele reaks oma nimi, r?hm ja kuup?ev.
+
+MASSIIVID
+
+================================
+?lesanne 0201
+
+Genereeri ts?kliga 100 t?isarvust koosnev massiiv.
+V?ljasta see "print_r" funktsiooniga.
+
+
+
+================================
+?lesanne 0202
+
+Lisa k?sitsi massiivi 10 looma nime kasutades massiivi kohan?itu. Nt. $mas[0]="karu" jne.
+V?ljasta see "foreach" ts?kkliga.
+
+
+
+================================
+?lesanne 0203
+
+Lisa k?sitsi massiivi 10 n?itleja nime kasutades massiivi array funktsiooni. 
+V?ljasta see "for" ts?kkliga.
+
+
+
+================================
+?lesanne 0204
+
+Lisa massiivi ?he kodaniku viis erinevat isikuandmete (nimi, vanus jne.) elementi.
+V?ljasta need ise p?stitatud lauses, sellesama kodaniku kohta.
+Nt. "Kodanik [nimi] on [vanus] aastane"
+
+
+
+================================
+?lesanne 0205
+
+
+Sisesta k?sitsi 3x3 kahem??tmeline massiiv. Massiivi elementideks pane filmide nimed.
+Nt.
+$mas[1][1]
+$mas[1][2]
+jne.
+
+V?ljasta massiiv ts?kliga.
